@@ -1,0 +1,62 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+
+#game-container {
+  margin: auto;
+  width: 300px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+#species-container {
+  margin: auto;
+  width: 300px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+#planetName {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+#healthBarContainer {
+  width: 100%;
+  height: 20px;
+  background-color: #eee;
+  border-radius: 5px;
+  margin: 10px 0;
+}
+
+#healthBar {
+  height: 100%;
+  width: 100%;
+  /* This represents full health; you can change it dynamically with JavaScript */
+  background-color: green;
+  border-radius: 5px;
+}
+
+#resources {
+  margin-bottom: 10px;
+}
+
+/* ... existing styles ... */
+
+#timeCounter,
+#controls {
+  margin-bottom: 10px;
+}
+
+button {
+  margin-right: 5px;
+}
+
+#speciesInfo {
+  margin-top: 20px;
+  border-top: 1px solid #ddd;
+  padding-top: 10px;
+}
