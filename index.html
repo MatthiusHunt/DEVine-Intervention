@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evolution Game</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <div id="projectedDepletion">Projected Planet Depletion: <span id="depletionTime">_</span> Time Units</div>
+    <div id="game-container">
+      <input type="text" id="planetName" placeholder="Name Your Planet">
+      <div id="planetStats">
+        <span>Planet: </span><span id="planetNameDisplay">Unnamed</span>
+        <div id="healthBarContainer">
+          <div id="healthBar"></div>
+        </div>
+        <span>Resources Available: </span><span id="resources">_</span>
+      </div>
+      <div id="timeCounter">Time: <span id="time">0</span></div>
+      <div id="controls">
+        <button id="playButton">Play</button>
+        <button id="pauseButton">Pause</button>
+        <button id="restartButton">Restart</button>
+      </div>
+
+
+    </div>
+
+    <div id="species-container">
+      <div id="speciesInfo">
+        <h3>Starter Species</h3>
+        <div>Population: <span id="speciesPopulation">2</span></div>
+        <div>Consume Rate: <span id="consumeRate">1</span></div>
+        <div>Reproduce Rate: <span id="reproduceRate">10</span></div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+
+</html>
